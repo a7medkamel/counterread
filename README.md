@@ -1,4 +1,4 @@
-# md-ai-editor
+# counterread
 
 A desktop markdown editor where an AI expert panel argues with your draft, the criticism is
 stored **inside the markdown file** for your coding agent to read, and every revision is a git
@@ -6,8 +6,8 @@ commit.
 
 > Essays, reviewed by a panel, edited with Claude.
 
-**[Product page →](https://a7medkamel.github.io/md-ai-editor/)**
-· **[Download for macOS →](https://github.com/a7medkamel/md-ai-editor/releases/latest)**
+**[Product page →](https://a7medkamel.github.io/counterread/)**
+· **[Download for macOS →](https://github.com/a7medkamel/counterread/releases/latest)**
 
 This repository hosts the product page and the signed macOS downloads.
 
@@ -30,9 +30,13 @@ This repository hosts the product page and the signed macOS downloads.
 
 ## Install
 
-Download the `.dmg` from [Releases](https://github.com/a7medkamel/md-ai-editor/releases/latest),
-open it, and drag the app to Applications. Builds are signed and notarized with Apple, so they
-open normally.
+Download the `.dmg` from [Releases](https://github.com/a7medkamel/counterread/releases/latest),
+open it, and drag counterread to Applications.
+
+Builds are signed with a Developer ID but not yet notarized, so macOS warns on first open —
+right-click the app → **Open** → **Open**. One time only.
+
+New versions download in the background and install when you quit.
 
 Requires macOS on Apple Silicon and `git`. The review panel needs your own
 [OpenRouter](https://openrouter.ai) API key; the voice features need nothing.
