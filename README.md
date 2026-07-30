@@ -33,8 +33,7 @@ This repository hosts the product page and the signed macOS downloads.
 Download the `.dmg` from [Releases](https://github.com/a7medkamel/counterread/releases/latest),
 open it, and drag counterread to Applications.
 
-Builds are signed with a Developer ID but not yet notarized, so macOS warns on first open —
-right-click the app → **Open** → **Open**. One time only.
+Builds are signed and notarized with Apple, so they open normally.
 
 New versions download in the background and install when you quit.
 
