@@ -59,6 +59,11 @@ h1{font-size:clamp(34px,5.4vw,54px);font-weight:680;margin-bottom:18px}
 .btn-primary{background:var(--ink);color:var(--chrome)}
 .btn-ghost{border-color:var(--hair2);color:var(--ink)}
 .fine{font-size:14px;color:var(--faint)}
+.note{
+  font-size:13.5px;color:var(--muted);max-width:460px;margin:16px auto 0;
+  background:var(--panel);border:1px solid var(--hair);border-radius:9px;padding:11px 15px;line-height:1.5
+}
+.note b{color:var(--ink);font-weight:600}
 .tagline{
   margin-top:44px;font-size:15px;color:var(--muted);font-style:italic;
   padding-top:26px;border-top:1px solid var(--hair)
@@ -126,7 +131,8 @@ footer p{margin:6px 0}
       <a class="btn btn-primary" id="dl" href="https://github.com/a7medkamel/md-ai-editor/releases/latest">Download for macOS</a>
       <a class="btn btn-ghost" href="https://github.com/a7medkamel/md-ai-editor/releases">All releases</a>
     </div>
-    <p class="fine">Free and open source · Apple Silicon · Bring your own OpenRouter key</p>
+    <p class="fine">v0.2.0 · Free and open source · Apple Silicon · Bring your own OpenRouter key</p>
+    <p class="note">This build is signed but not yet notarized, so macOS warns on first open — right-click the app → <b>Open</b> → <b>Open</b>. One time only.</p>
     <p class="tagline">Essays, reviewed by a panel, edited with Claude.</p>
   </div>
 </header>
@@ -216,6 +222,7 @@ footer p{margin:6px 0}
       <li><b>git</b> required — the editor will offer to initialize a repo</li>
       <li><b>OpenRouter key</b> for the review panel only; voice features need nothing</li>
       <li><b>First voice use</b> downloads a few hundred MB of models, once</li>
+      <li><b>Updates</b> download in the background and install when you quit</li>
     </ul>
   </div>
 </section>
